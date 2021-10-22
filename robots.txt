@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://gitmoji.dev
+
+# Sitemaps
+Sitemap: https://gitmoji.dev/sitemap.xml
