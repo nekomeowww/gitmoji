@@ -3,7 +3,6 @@ dist/
 node_modules/
 .publish/
 .next
-out/
 coverage/
 public/robots.txt
 public/sitemap.xml
