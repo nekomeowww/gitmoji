@@ -44,16 +44,16 @@ const Hamburger = (): Element<'div'> => {
 
           <ul className={styles.links}>
             <li>
-              <MenuLink href="/" text="Home" />
+              <MenuLink href="/" text="首页" />
             </li>
             <li>
-              <MenuLink href="/about" text="About" />
+              <MenuLink href="/about" text="关于" />
             </li>
             <li>
-              <MenuLink href="/contributors" text="Contributors" />
+              <MenuLink href="/contributors" text="贡献者" />
             </li>
             <li>
-              <MenuLink href="/related-tools" text="Related tools" />
+              <MenuLink href="/related-tools" text="相关工具" />
             </li>
             <li>
               <MenuLink

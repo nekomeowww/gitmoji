@@ -17,7 +17,7 @@ const Toolbar = (props: Props): Element<'div'> => (
       className={styles.searchInput}
       name="searchInput"
       onChange={(event) => props.setSearchInput(event.target.value)}
-      placeholder="Search your gitmoji..."
+      placeholder="搜索 gitmoji..."
       type="text"
       value={props.searchInput}
     />

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import CarbonAd from 'src/components/CarbonAd'
+// import CarbonAd from 'src/components/CarbonAd'
 import Button from 'src/components/Button'
 import SEO from 'src/components/SEO'
 
@@ -58,13 +58,12 @@ const RelatedTools = () => (
   <>
     <SEO pageTitle="Related tools" pageUrl="/related-tools" />
     <main>
-      <CarbonAd />
+      {/* <CarbonAd /> */}
       <section>
-        <h1>Related tools</h1>
+        <h1>相关工具</h1>
 
         <p>
-          This is a list of tools which are related with the <b>gitmoji</b>{' '}
-          convention.
+          这是一个完整的和 <b>gitmoji</b> 相关的工具列表。
         </p>
 
         <ul>

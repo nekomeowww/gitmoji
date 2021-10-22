@@ -11,7 +11,7 @@ const Header = (props: Props): Element<'header'> => (
   <header className={styles.header}>
     <Logo />
     {props.withHeadline && (
-      <h2 className={styles.title}>An emoji guide for your commit messages</h2>
+      <h2 className={styles.title}>提交信息的 Emoji 指南</h2>
     )}
     <div className={styles.buttons}>
       <Button
@@ -28,7 +28,7 @@ const Header = (props: Props): Element<'header'> => (
           '&url=https://gitmoji.dev'
         }
         target="_blank"
-        text="Tweet"
+        text="发推"
       />
     </div>
   </header>

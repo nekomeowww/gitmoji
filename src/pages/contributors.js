@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ContributorsList from 'src/components/ContributorsList'
-import CarbonAd from 'src/components/CarbonAd'
+// import CarbonAd from 'src/components/CarbonAd'
 import SEO from 'src/components/SEO'
 
 type Props = {
@@ -13,9 +13,9 @@ const Contributors = (props: Props) => (
     <SEO pageTitle="Contributors" pageUrl="/contributors" />
 
     <main>
-      <CarbonAd />
+      {/* <CarbonAd /> */}
       <section>
-        <h1>Contributors</h1>
+        <h1>贡献者</h1>
 
         <ContributorsList contributors={props.contributors} />
       </section>
